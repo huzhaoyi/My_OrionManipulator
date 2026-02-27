@@ -1,0 +1,47 @@
+[0.012s] Invoking command in '/home/huzy/orion/build/orion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huzy/orion/build/orion -- -j8 -l8
+[0.047s] Invoked command in '/home/huzy/orion/build/orion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huzy/orion/build/orion -- -j8 -l8
+[0.057s] Invoking command in '/home/huzy/orion/build/orion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/huzy/orion/build/orion
+[0.063s] -- Install configuration: ""
+[0.063s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/config
+[0.063s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/config/ompl_planning.yaml
+[0.063s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/config/sensors_3d.yaml
+[0.063s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/config/urdf.rviz
+[0.063s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/config/joint_limits.yaml
+[0.063s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/config/joint_names_orion.yaml
+[0.063s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/config/kinematics.yaml
+[0.063s] -- Installing: /home/huzy/orion/install/orion/share/orion/config/orion.srdf
+[0.063s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/config/moveit_controllers.yaml
+[0.064s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/launch
+[0.064s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/launch/moveit_pybullet.launch.py
+[0.064s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/launch/moveit.rviz
+[0.064s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/meshes
+[0.064s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/meshes/Link4.STL
+[0.064s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/meshes/Link6.STL
+[0.064s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/meshes/Link1.STL
+[0.064s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/meshes/base_link.STL
+[0.064s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/meshes/Link3.STL
+[0.064s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/meshes/Link2.STL
+[0.064s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/meshes/Link7.STL
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/meshes/Link5.STL
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/meshes/Link8.STL
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/urdf
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/urdf/orion.csv
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/urdf/orion.urdf
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/.setup_assistant
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/lib/orion/pybullet_follow_joint_trajectory_server.py
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/ament_index/resource_index/package_run_dependencies/orion
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/ament_index/resource_index/parent_prefix_path/orion
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/environment/ament_prefix_path.sh
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/environment/ament_prefix_path.dsv
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/environment/path.sh
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/environment/path.dsv
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/local_setup.bash
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/local_setup.sh
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/local_setup.zsh
+[0.065s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/local_setup.dsv
+[0.066s] -- Installing: /home/huzy/orion/install/orion/share/orion/package.dsv
+[0.066s] -- Up-to-date: /home/huzy/orion/install/orion/share/ament_index/resource_index/packages/orion
+[0.066s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/cmake/orionConfig.cmake
+[0.066s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/cmake/orionConfig-version.cmake
+[0.066s] -- Up-to-date: /home/huzy/orion/install/orion/share/orion/package.xml
+[0.067s] Invoked command in '/home/huzy/orion/build/orion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/huzy/orion/build/orion

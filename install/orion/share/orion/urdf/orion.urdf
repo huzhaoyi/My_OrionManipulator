@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="orion">
+  <!-- 虚拟根链接：无惯性，满足 KDL 对根链接的要求，消除 robot_state_publisher 警告 -->
+  <link
+    name="base_footprint" />
+  <joint
+    name="base_footprint_joint"
+    type="fixed">
+    <parent
+      link="base_footprint" />
+    <child
+      link="base_link" />
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+  </joint>
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.121761498866689 -0.00352190802531379 0.0619894440057304"
+        rpy="0 0 0" />
+      <mass
+        value="2.06239608151247" />
+      <inertia
+        ixx="0.00780376582582248"
+        ixy="-0.00211261260721918"
+        ixz="9.21290693428216E-06"
+        iyy="0.0127057089081331"
+        iyz="-3.03793577239948E-07"
+        izz="0.0131737655724883" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Link1">
+    <inertial>
+      <origin
+        xyz="0.0423330610051823 0.0034217887420367 0.0124931813073256"
+        rpy="0 0 0" />
+      <mass
+        value="0.718843583644278" />
+      <inertia
+        ixx="0.00174123023919349"
+        ixy="9.99403466130405E-05"
+        ixz="0.000125926272332741"
+        iyy="0.00161828894277151"
+        iyz="1.6584357320346E-05"
+        izz="0.00135699153110166" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.0682258053361559"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.047"
+      upper="1.047"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link2">
+    <inertial>
+      <origin
+        xyz="0.438240033738344 -0.115071132732721 0.00103861817695742"
+        rpy="0 0 0" />
+      <mass
+        value="3.51312597859259" />
+      <inertia
+        ixx="0.0183263800365205"
+        ixy="0.0361089522603423"
+        ixz="-1.64340689779561E-05"
+        iyy="0.137835650010139"
+        iyz="4.29633899644898E-06"
+        izz="0.146188935880584" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint2"
+    type="revolute">
+    <origin
+      xyz="0.0698500000000001 -0.00103851012200278 0.0105395946638435"
+      rpy="-1.57079632679491 0 0" />
+    <parent
+      link="Link1" />
+    <child
+      link="Link2" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.047"
+      upper="1.047"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link3">
+    <inertial>
+      <origin
+        xyz="0.111448408078879 -0.0449086824957676 -0.00269451420620551"
+        rpy="0 0 0" />
+      <mass
+        value="2.55779371431064" />
+      <inertia
+        ixx="0.00658107972410145"
+        ixy="0.00123501727039897"
+        ixz="1.21377611906675E-08"
+        iyy="0.00694680086434895"
+        iyz="-1.30012329967443E-08"
+        izz="0.00442880295957647" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint3"
+    type="revolute">
+    <origin
+      xyz="0.866204867304421 -0.224683418449091 0.00373302642085387"
+      rpy="0 0 0" />
+    <parent
+      link="Link2" />
+    <child
+      link="Link3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.047"
+      upper="1.047"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link4">
+    <inertial>
+      <origin
+        xyz="-1.88849152118562E-05 -0.00258134819713074 0.113280858724767"
+        rpy="0 0 0" />
+      <mass
+        value="1.60320502101545" />
+      <inertia
+        ixx="0.00744608667373619"
+        ixy="7.79624407112571E-06"
+        ixz="-1.12163436724545E-05"
+        iyy="0.00808925691739042"
+        iyz="0.00024562564696964"
+        izz="0.00453679708842084" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint4"
+    type="revolute">
+    <origin
+      xyz="0.183512560517804 -0.0156688103054023 -0.00269451629885311"
+      rpy="0.85521133347722 -1.57079631189374 3.02694790746321" />
+    <parent
+      link="Link3" />
+    <child
+      link="Link4" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.355"
+      upper="2.355"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link5">
+    <inertial>
+      <origin
+        xyz="-0.140210424647392 0.00805793578593085 0.00895724733740536"
+        rpy="0 0 0" />
+      <mass
+        value="2.31328502383699" />
+      <inertia
+        ixx="0.00494722498148305"
+        ixy="-4.86955541866495E-05"
+        ixz="-4.1012489349567E-06"
+        iyy="0.00519167865006555"
+        iyz="-6.73245868816153E-07"
+        izz="0.0044420317158258" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint5"
+    type="revolute">
+    <origin
+      xyz="-0.00909138906845681 0.000999405814319343 0.378399318984799"
+      rpy="-1.5707963267949 0.830229739444263 -1.5707963267949" />
+    <parent
+      link="Link4" />
+    <child
+      link="Link5" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.047"
+      upper="1.047"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link6">
+    <inertial>
+      <origin
+        xyz="-8.07831374590623E-10 2.65185221004494E-10 0.0127375338068656"
+        rpy="0 0 0" />
+      <mass
+        value="0.274922058948043" />
+      <inertia
+        ixx="0.000225716619132977"
+        ixy="-2.05642131407224E-11"
+        ixz="2.53321970197874E-12"
+        iyy="0.000224669196739376"
+        iyz="-4.22256833990629E-14"
+        izz="0.000319090164605832" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint6"
+    type="revolute">
+    <origin
+      xyz="-0.251639254104642 0.0112889484774294 0.00909138906845557"
+      rpy="-2.48993933917788 -1.57079631189374 2.44510776313105" />
+    <parent
+      link="Link5" />
+    <child
+      link="Link6" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link7">
+    <inertial>
+      <origin
+        xyz="0.0616612022608383 0.0133638351403898 -0.00370231940450728"
+        rpy="0 0 0" />
+      <mass
+        value="0.131276885465317" />
+      <inertia
+        ixx="4.47602338848857E-05"
+        ixy="-7.28323329339543E-06"
+        ixz="2.19434547211949E-11"
+        iyy="0.00010741684530466"
+        iyz="-7.13667411906228E-12"
+        izz="9.93502743616739E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link7.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link7.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint7"
+    type="revolute">
+    <origin
+      xyz="-0.00370231951955372 -0.0362712000000091 0.0499058495855109"
+      rpy="1.57079632679489 -1.52596475074807 -1.57079632679489" />
+    <parent
+      link="Link6" />
+    <child
+      link="Link7" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link8">
+    <inertial>
+      <origin
+        xyz="0.062610146437502 -0.00778881957431456 -0.00145296495342849"
+        rpy="0 0 0" />
+      <mass
+        value="0.131276888646293" />
+      <inertia
+        ixx="4.39635286157899E-05"
+        ixy="1.5785117544818E-06"
+        ixz="-2.18830602990758E-11"
+        iyy="0.000108213554373007"
+        iyz="-8.76001150075588E-12"
+        izz="9.93502779782207E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link8.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://orion/meshes/Link8.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint8"
+    type="revolute">
+    <origin
+      xyz="-0.00145296512901593 0.0362711999999911 0.049905849585508"
+      rpy="1.57079632679489 -1.52596475074807 -1.57079632679489" />
+    <parent
+      link="Link6" />
+    <child
+      link="Link8" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

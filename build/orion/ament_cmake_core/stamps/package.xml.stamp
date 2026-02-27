@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>orion</name>
+  <version>1.0.0</version>
+  <description>
+    URDF Description package for Orion.
+    This package contains configuration data, 3D models and launch files for Orion robot.
+  </description>
+  <author>TODO</author>
+  <maintainer email="TODO@email.com">TODO</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>robot_state_publisher</depend>
+  <depend>rviz2</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>xacro</depend>
+  <depend>moveit_ros_move_group</depend>
+  <depend>moveit_kinematics</depend>
+  <depend>moveit_planners_ompl</depend>
+  <depend>moveit_ros_visualization</depend>
+  <depend>moveit_configs_utils</depend>
+  <depend>rclpy</depend>
+  <depend>control_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

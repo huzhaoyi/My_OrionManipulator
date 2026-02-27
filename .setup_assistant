@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: orion
+    relative_path: urdf/orion.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/orion.srdf
+  CONFIG:
+    author_name: TODO
+    author_email: TODO@email.com
+    generated_timestamp: 0
