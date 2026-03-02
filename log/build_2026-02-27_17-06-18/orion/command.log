@@ -1,0 +1,4 @@
+Invoking command in '/home/huzy/My_OrionManipulator/build/orion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huzy/My_OrionManipulator -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/huzy/My_OrionManipulator/install/orion
+Invoked command in '/home/huzy/My_OrionManipulator/build/orion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huzy/My_OrionManipulator -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/huzy/My_OrionManipulator/install/orion
+Invoking command in '/home/huzy/My_OrionManipulator/build/orion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huzy/My_OrionManipulator/build/orion -- -j8 -l8
+Invoked command in '/home/huzy/My_OrionManipulator/build/orion' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huzy/My_OrionManipulator/build/orion -- -j8 -l8

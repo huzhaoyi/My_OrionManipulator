@@ -1,0 +1,63 @@
+[0.040s] Invoking command in '/home/huzy/My_OrionManipulator/build/orion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huzy/My_OrionManipulator -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/huzy/My_OrionManipulator/install/orion
+[0.188s] -- The C compiler identification is GNU 11.4.0
+[0.288s] -- The CXX compiler identification is GNU 11.4.0
+[0.315s] -- Detecting C compiler ABI info
+[0.540s] -- Detecting C compiler ABI info - done
+[0.544s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.545s] -- Detecting C compile features
+[0.545s] -- Detecting C compile features - done
+[0.549s] -- Detecting CXX compiler ABI info
+[0.756s] -- Detecting CXX compiler ABI info - done
+[0.762s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.762s] -- Detecting CXX compile features
+[0.762s] -- Detecting CXX compile features - done
+[0.767s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.962s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.053s] -- Found moveit_task_constructor_core: 0.1.3 (/opt/ros/humble/share/moveit_task_constructor_core/cmake)
+[1.127s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.131s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.138s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.167s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.626s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.696s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.734s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.736s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.001s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.035s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.088s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.100s] -- Found Threads: TRUE  
+[2.135s] -- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.154s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.445s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.504s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.504s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.719s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.745s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.758s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.776s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.907s] -- Configuring done
+[2.953s] -- Generating done
+[2.963s] -- Build files have been written to: /home/huzy/My_OrionManipulator/build/orion
+[2.979s] Invoked command in '/home/huzy/My_OrionManipulator/build/orion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huzy/My_OrionManipulator -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/huzy/My_OrionManipulator/install/orion
+[2.982s] Invoking command in '/home/huzy/My_OrionManipulator/build/orion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huzy/My_OrionManipulator/build/orion -- -j8 -l8
+[3.909s] [ 50%] Building CXX object CMakeFiles/orion_mtc_node.dir/src/orion_mtc_node.cpp.o
+[9.783s] /home/huzy/My_OrionManipulator/src/orion_mtc_node.cpp: In member function ‘void OrionMTCTaskNode::setupPlanningScene()’:
+[9.783s] /home/huzy/My_OrionManipulator/src/orion_mtc_node.cpp:65:63: error: no matching function for call to ‘moveit::planning_interface::PlanningSceneInterface::PlanningSceneInterface(rclcpp::Node::SharedPtr&)’
+[9.783s]    65 |   moveit::planning_interface::PlanningSceneInterface psi(node_);
+[9.783s]       |                                                               ^
+[9.783s] In file included from /home/huzy/My_OrionManipulator/src/orion_mtc_node.cpp:7:
+[9.783s] /opt/ros/humble/include/moveit/planning_scene_interface/planning_scene_interface.h:60:12: note: candidate: ‘moveit::planning_interface::PlanningSceneInterface::PlanningSceneInterface(const string&, bool)’
+[9.783s]    60 |   explicit PlanningSceneInterface(const std::string& ns = "", bool wait = true);
+[9.783s]       |            ^~~~~~~~~~~~~~~~~~~~~~
+[9.783s] /opt/ros/humble/include/moveit/planning_scene_interface/planning_scene_interface.h:60:54: note:   no known conversion for argument 1 from ‘rclcpp::Node::SharedPtr’ {aka ‘std::shared_ptr<rclcpp::Node>’} to ‘const string&’ {aka ‘const std::__cxx11::basic_string<char>&’}
+[9.783s]    60 |   explicit PlanningSceneInterface(const std::string& ns = "", bool wait = true);
+[9.783s]       |                                   ~~~~~~~~~~~~~~~~~~~^~~~~~~
+[9.783s] /opt/ros/humble/include/moveit/planning_scene_interface/planning_scene_interface.h:52:7: note: candidate: ‘constexpr moveit::planning_interface::PlanningSceneInterface::PlanningSceneInterface(const moveit::planning_interface::PlanningSceneInterface&)’
+[9.783s]    52 | class PlanningSceneInterface
+[9.783s]       |       ^~~~~~~~~~~~~~~~~~~~~~
+[9.783s] /opt/ros/humble/include/moveit/planning_scene_interface/planning_scene_interface.h:52:7: note:   no known conversion for argument 1 from ‘rclcpp::Node::SharedPtr’ {aka ‘std::shared_ptr<rclcpp::Node>’} to ‘const moveit::planning_interface::PlanningSceneInterface&’
+[13.328s] gmake[2]: *** [CMakeFiles/orion_mtc_node.dir/build.make:76：CMakeFiles/orion_mtc_node.dir/src/orion_mtc_node.cpp.o] 错误 1
+[13.328s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/orion_mtc_node.dir/all] 错误 2
+[13.328s] gmake: *** [Makefile:146：all] 错误 2
+[13.330s] Invoked command in '/home/huzy/My_OrionManipulator/build/orion' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huzy/My_OrionManipulator/build/orion -- -j8 -l8

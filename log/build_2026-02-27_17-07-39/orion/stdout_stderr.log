@@ -1,0 +1,70 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found moveit_task_constructor_core: 0.1.3 (/opt/ros/humble/share/moveit_task_constructor_core/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/huzy/My_OrionManipulator/build/orion
+Consolidate compiler generated dependencies of target orion_mtc_node
+[100%] Built target orion_mtc_node
+-- Install configuration: "Release"
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/ompl_planning.yaml
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/sensors_3d.yaml
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/urdf.rviz
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/joint_limits.yaml
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/joint_names_orion.yaml
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/kinematics.yaml
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/orion.srdf
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/moveit_controllers.yaml
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/launch
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/launch/moveit_pybullet.launch.py
+-- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/launch/mtc_grasp.launch.py
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/launch/moveit.rviz
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link4.STL
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link6.STL
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link1.STL
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/base_link.STL
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link3.STL
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link2.STL
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link7.STL
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link5.STL
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link8.STL
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/urdf
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/urdf/orion.csv
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/urdf/orion.urdf
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/.setup_assistant
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/lib/orion/pybullet_follow_joint_trajectory_server.py
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/lib/orion/orion_mtc_node
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/ament_index/resource_index/package_run_dependencies/orion
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/ament_index/resource_index/parent_prefix_path/orion
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/environment/ament_prefix_path.sh
+-- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/environment/path.sh
+-- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/environment/path.dsv
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/local_setup.bash
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/local_setup.sh
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/local_setup.zsh
+-- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/local_setup.dsv
+-- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/package.dsv
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/ament_index/resource_index/packages/orion
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/cmake/orionConfig.cmake
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/cmake/orionConfig-version.cmake
+-- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/package.xml

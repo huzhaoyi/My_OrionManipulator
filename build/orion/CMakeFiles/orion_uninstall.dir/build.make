@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/huzy/orion
+CMAKE_SOURCE_DIR = /home/huzy/My_OrionManipulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/huzy/orion/build/orion
+CMAKE_BINARY_DIR = /home/huzy/My_OrionManipulator/build/orion
 
 # Utility rule file for orion_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/orion_uninstall.dir/compiler_depend.make
 include CMakeFiles/orion_uninstall.dir/progress.make
 
 CMakeFiles/orion_uninstall:
-	/usr/bin/cmake -P /home/huzy/orion/build/orion/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/huzy/My_OrionManipulator/build/orion/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 orion_uninstall: CMakeFiles/orion_uninstall
 orion_uninstall: CMakeFiles/orion_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/orion_uninstall.dir/clean:
 .PHONY : CMakeFiles/orion_uninstall.dir/clean
 
 CMakeFiles/orion_uninstall.dir/depend:
-	cd /home/huzy/orion/build/orion && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/huzy/orion /home/huzy/orion /home/huzy/orion/build/orion /home/huzy/orion/build/orion /home/huzy/orion/build/orion/CMakeFiles/orion_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/huzy/My_OrionManipulator/build/orion && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/huzy/My_OrionManipulator /home/huzy/My_OrionManipulator /home/huzy/My_OrionManipulator/build/orion /home/huzy/My_OrionManipulator/build/orion /home/huzy/My_OrionManipulator/build/orion/CMakeFiles/orion_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/orion_uninstall.dir/depend
 

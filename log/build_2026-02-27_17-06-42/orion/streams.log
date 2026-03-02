@@ -1,0 +1,53 @@
+[0.260s] Invoking command in '/home/huzy/My_OrionManipulator/build/orion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huzy/My_OrionManipulator/build/orion -- -j8 -l8
+[0.504s] Consolidate compiler generated dependencies of target orion_mtc_node
+[0.569s] [ 50%] Building CXX object CMakeFiles/orion_mtc_node.dir/src/orion_mtc_node.cpp.o
+[8.320s] [100%] Linking CXX executable orion_mtc_node
+[8.643s] [100%] Built target orion_mtc_node
+[8.661s] Invoked command in '/home/huzy/My_OrionManipulator/build/orion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huzy/My_OrionManipulator/build/orion -- -j8 -l8
+[8.679s] Invoking command in '/home/huzy/My_OrionManipulator/build/orion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huzy/My_OrionManipulator/build/orion
+[8.695s] -- Install configuration: "Release"
+[8.695s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/config
+[8.696s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/ompl_planning.yaml
+[8.696s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/sensors_3d.yaml
+[8.696s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/urdf.rviz
+[8.696s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/joint_limits.yaml
+[8.696s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/joint_names_orion.yaml
+[8.696s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/kinematics.yaml
+[8.696s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/orion.srdf
+[8.696s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/moveit_controllers.yaml
+[8.696s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/launch
+[8.696s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/launch/moveit_pybullet.launch.py
+[8.696s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/launch/moveit.rviz
+[8.696s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes
+[8.696s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link4.STL
+[8.698s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link6.STL
+[8.699s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link1.STL
+[8.700s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/base_link.STL
+[8.700s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link3.STL
+[8.702s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link2.STL
+[8.703s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link7.STL
+[8.703s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link5.STL
+[8.704s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link8.STL
+[8.704s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/urdf
+[8.705s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/urdf/orion.csv
+[8.705s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/urdf/orion.urdf
+[8.705s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/.setup_assistant
+[8.705s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/lib/orion/pybullet_follow_joint_trajectory_server.py
+[8.705s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/lib/orion/orion_mtc_node
+[8.705s] -- Set runtime path of "/home/huzy/My_OrionManipulator/install/orion/lib/orion/orion_mtc_node" to ""
+[8.705s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/ament_index/resource_index/package_run_dependencies/orion
+[8.705s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/ament_index/resource_index/parent_prefix_path/orion
+[8.705s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/environment/ament_prefix_path.sh
+[8.706s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/environment/ament_prefix_path.dsv
+[8.706s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/environment/path.sh
+[8.707s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/environment/path.dsv
+[8.707s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/local_setup.bash
+[8.707s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/local_setup.sh
+[8.707s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/local_setup.zsh
+[8.707s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/local_setup.dsv
+[8.707s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/package.dsv
+[8.707s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/ament_index/resource_index/packages/orion
+[8.707s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/cmake/orionConfig.cmake
+[8.707s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/cmake/orionConfig-version.cmake
+[8.707s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/package.xml
+[8.709s] Invoked command in '/home/huzy/My_OrionManipulator/build/orion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huzy/My_OrionManipulator/build/orion

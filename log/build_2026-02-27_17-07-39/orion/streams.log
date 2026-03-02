@@ -1,0 +1,76 @@
+[0.024s] Invoking command in '/home/huzy/My_OrionManipulator/build/orion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huzy/My_OrionManipulator -DCMAKE_INSTALL_PREFIX=/home/huzy/My_OrionManipulator/install/orion
+[0.046s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.181s] -- Found moveit_task_constructor_core: 0.1.3 (/opt/ros/humble/share/moveit_task_constructor_core/cmake)
+[0.204s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.206s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.211s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.217s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.225s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.259s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.286s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.304s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.305s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.433s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.463s] -- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.477s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.529s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.571s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.717s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[0.736s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.746s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[0.760s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[0.874s] -- Configuring done
+[0.903s] -- Generating done
+[0.911s] -- Build files have been written to: /home/huzy/My_OrionManipulator/build/orion
+[0.923s] Invoked command in '/home/huzy/My_OrionManipulator/build/orion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huzy/My_OrionManipulator -DCMAKE_INSTALL_PREFIX=/home/huzy/My_OrionManipulator/install/orion
+[0.924s] Invoking command in '/home/huzy/My_OrionManipulator/build/orion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huzy/My_OrionManipulator/build/orion -- -j8 -l8
+[1.055s] Consolidate compiler generated dependencies of target orion_mtc_node
+[1.101s] [100%] Built target orion_mtc_node
+[1.123s] Invoked command in '/home/huzy/My_OrionManipulator/build/orion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huzy/My_OrionManipulator/build/orion -- -j8 -l8
+[1.144s] Invoking command in '/home/huzy/My_OrionManipulator/build/orion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huzy/My_OrionManipulator/build/orion
+[1.160s] -- Install configuration: "Release"
+[1.160s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config
+[1.160s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/ompl_planning.yaml
+[1.160s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/sensors_3d.yaml
+[1.160s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/urdf.rviz
+[1.160s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/joint_limits.yaml
+[1.160s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/joint_names_orion.yaml
+[1.160s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/kinematics.yaml
+[1.160s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/orion.srdf
+[1.160s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/config/moveit_controllers.yaml
+[1.160s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/launch
+[1.160s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/launch/moveit_pybullet.launch.py
+[1.160s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/launch/mtc_grasp.launch.py
+[1.160s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/launch/moveit.rviz
+[1.161s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes
+[1.161s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link4.STL
+[1.161s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link6.STL
+[1.161s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link1.STL
+[1.161s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/base_link.STL
+[1.161s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link3.STL
+[1.161s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link2.STL
+[1.161s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link7.STL
+[1.162s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link5.STL
+[1.162s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/meshes/Link8.STL
+[1.162s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/urdf
+[1.162s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/urdf/orion.csv
+[1.162s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/urdf/orion.urdf
+[1.162s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/.setup_assistant
+[1.162s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/lib/orion/pybullet_follow_joint_trajectory_server.py
+[1.162s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/lib/orion/orion_mtc_node
+[1.162s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/ament_index/resource_index/package_run_dependencies/orion
+[1.163s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/ament_index/resource_index/parent_prefix_path/orion
+[1.163s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/environment/ament_prefix_path.sh
+[1.163s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/environment/ament_prefix_path.dsv
+[1.163s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/environment/path.sh
+[1.163s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/environment/path.dsv
+[1.163s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/local_setup.bash
+[1.163s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/local_setup.sh
+[1.163s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/local_setup.zsh
+[1.163s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/local_setup.dsv
+[1.164s] -- Installing: /home/huzy/My_OrionManipulator/install/orion/share/orion/package.dsv
+[1.164s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/ament_index/resource_index/packages/orion
+[1.164s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/cmake/orionConfig.cmake
+[1.164s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/cmake/orionConfig-version.cmake
+[1.164s] -- Up-to-date: /home/huzy/My_OrionManipulator/install/orion/share/orion/package.xml
+[1.165s] Invoked command in '/home/huzy/My_OrionManipulator/build/orion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huzy/My_OrionManipulator/build/orion

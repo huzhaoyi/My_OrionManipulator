@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/huzy/orion
+CMAKE_SOURCE_DIR = /home/huzy/My_OrionManipulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/huzy/orion/build/orion
+CMAKE_BINARY_DIR = /home/huzy/My_OrionManipulator/build/orion
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/huzy/orion/build/orion/CMakeFiles /home/huzy/orion/build/orion//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huzy/My_OrionManipulator/build/orion/CMakeFiles /home/huzy/My_OrionManipulator/build/orion//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/huzy/orion/build/orion/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huzy/My_OrionManipulator/build/orion/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -197,6 +197,43 @@ orion_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/orion_uninstall.dir/build.make CMakeFiles/orion_uninstall.dir/build
 .PHONY : orion_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named orion_mtc_node
+
+# Build rule for target.
+orion_mtc_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 orion_mtc_node
+.PHONY : orion_mtc_node
+
+# fast build rule for target.
+orion_mtc_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orion_mtc_node.dir/build.make CMakeFiles/orion_mtc_node.dir/build
+.PHONY : orion_mtc_node/fast
+
+src/orion_mtc_node.o: src/orion_mtc_node.cpp.o
+.PHONY : src/orion_mtc_node.o
+
+# target to build an object file
+src/orion_mtc_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orion_mtc_node.dir/build.make CMakeFiles/orion_mtc_node.dir/src/orion_mtc_node.cpp.o
+.PHONY : src/orion_mtc_node.cpp.o
+
+src/orion_mtc_node.i: src/orion_mtc_node.cpp.i
+.PHONY : src/orion_mtc_node.i
+
+# target to preprocess a source file
+src/orion_mtc_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orion_mtc_node.dir/build.make CMakeFiles/orion_mtc_node.dir/src/orion_mtc_node.cpp.i
+.PHONY : src/orion_mtc_node.cpp.i
+
+src/orion_mtc_node.s: src/orion_mtc_node.cpp.s
+.PHONY : src/orion_mtc_node.s
+
+# target to generate assembly for a file
+src/orion_mtc_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orion_mtc_node.dir/build.make CMakeFiles/orion_mtc_node.dir/src/orion_mtc_node.cpp.s
+.PHONY : src/orion_mtc_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... orion_uninstall"
 	@echo "... uninstall"
+	@echo "... orion_mtc_node"
+	@echo "... src/orion_mtc_node.o"
+	@echo "... src/orion_mtc_node.i"
+	@echo "... src/orion_mtc_node.s"
 .PHONY : help
 
 
